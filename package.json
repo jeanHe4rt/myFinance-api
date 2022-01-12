@@ -1,0 +1,19 @@
+{
+  "name": "myFinance-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:jeanAt2/myFinance-api.git",
+  "author": "jeanat2 <jean0king@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./server.js"
+  },
+  "dependencies": {
+    "dotenv": "^11.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
